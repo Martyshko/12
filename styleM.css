@@ -1,0 +1,111 @@
+
+.banner {
+	max-width: 100%;
+    
+
+}
+a {
+	text-decoration: none;
+	color:grey;
+}
+div {
+    display: block;
+}
+.nav{
+    width: 100%;
+    background: white;
+    height: 30px;
+     font-size: 14px
+  	font-family : "PlayfairDisplay"
+  	color: rgb(98, 98, 98)
+
+  #f0f0f0
+}
+.nav ul{
+    display: flex;
+    overflow: hidden;
+    color: white;
+    height: 100%;
+}
+.nav ul li{
+    width: 183px;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li:hover>a{
+   border-right:none; 
+   color: white;
+   background: #fff;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: grey;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+h3 {
+	 font-size: 30px
+  font-family: "PlayfairDisplay"
+  color: rgb(98, 98, 98)
+}
+h4 {font-size: 14px
+  font-family: "Ubuntu"
+  color: rgb(180, 173, 158)
+}
+.signUp {
+	background-color:#f0f0f0;
+	width: 100%;
+}
+button.load {
+	width:100px;
+	height:45px;
+	border: 1px solid;
+	margin-left: 650px;
+	text-align: center;
+}
+footer {
+    left: 0; bottom: 0;
+    padding: 10px; 
+    background:grey ; 
+    color: ; 
+    width: 100%;
+ }
+ .wear {
+    font-family: Birch;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 100;
+    margin: 0;
+}
+
+
+:-webkit-any {
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	}
+	.content {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}.cards {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.card {
+	background-color: #fff;
+	width: 50%;
+	position: relative;
+	padding-bottom: 80px;
+}
